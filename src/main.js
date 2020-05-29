@@ -66,6 +66,9 @@ Object.keys(actionMap).forEach((action) => {
       program.option(obj.flags, obj.description, obj.defaultValue);
     });
   }
+
+  // 通过绑定操作处理程序实现命令 (这里description的定义和 `.command` 是分开的)
+  // 返回新生成的命令(即该子命令)以供继续配置
   program
     .command(action)
     .description(actionMap[action].description)
