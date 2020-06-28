@@ -1,7 +1,7 @@
 {
-  "name": "vit-study",
+  "name": "vit-cli",
   "version": "1.0.0",
-  "description": "脚手架学习",
+  "description": "vue+ts模板脚手架",
   "main": "index.js",
   "scripts": {
     "compile": "babel src -d dist",
@@ -10,9 +10,8 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "little-bird-cli": "./bin/cmd",
-    "lb-cli": "./bin/cmd",
-    "lbc": "./bin/cmd"
+    "vit-cli": "./bin/cmd",
+    "vli": "./bin/cmd"
   },
   "keywords": [
     "vue",

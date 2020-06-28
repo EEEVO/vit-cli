@@ -27,8 +27,6 @@ export const TEMPLATE_LIST = {
   miniApp: "miniApp",
 };
 
-console.log(Object.keys(TEMPLATE_LIST));
-
 // 命令行交互模板
 let promptList = [
   {
